@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{>head}}
+</head>
+
+<body>
+    {{>header}}
+
+    <!-- main section -->
+    <section class="container-fluid main-section ">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto err">
+                <div class="row ">
+                    <div class="col-md-10 col-12 left-section err mx-auto">
+                        <figure class="err-figure">
+                            <img src="./images/404.png" alt="" class="img-fluid">
+                        </figure>
+                        <p>Welcome to weather app</p>
+                        <h1>{{errmag}}</h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    {{>footer}}
+</body>
+
+</html>
